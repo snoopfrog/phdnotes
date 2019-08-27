@@ -1,0 +1,53 @@
+---
+title: "Macro I"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+bibliography: macrobib.bib
+---
+
+## Solow Model
+
+If capital accumulation affects output through a direct contribution to production (in return for the marginal product), the Solow model shows that the differences in real incomes are far too large to be accounted for by differences in capital inputs. Thus, it is a fundamental starting point in the analysis of economic growth.
+
+Assumptions in the model:  
+
+* Capital, labour and knowledge\technology are combined to produce output in time period $t$.  
+$$ Y(t)=F(K(t),A(t)L(t))$$
+
+* Time is not a part of the production function, at a time $t$, production depends on factor inputs and technology levels.  
+* 
+
+### Reading list {.tabset}
+#### @lucas1990doesn
+
+##### Why doesn't capital flow to poor countries from rich countries?
+
+The puzzle that Lucas analyses in this paper is the absence of significant capital flows from wealthy to poor countries. Lucas calculates the rate of return on a Cobb-Douglas production function using different estimates for the parameters of: $y = Ax^{ \beta}$. An initial estimate of marginal product of capital (calculated as $r = \beta A^{1/\beta}y^{(\beta - 1){\beta}}$ using $\beta =.4$) estimates that the rate of return in India (a relatively poor country) is 58 times that of the US. This estimate is outrageously high - implying that wealthy countries would always invest in poor ones and never in their own country which is a totally unrealistic scenario. This is caused by the many assumptions in the basic model that Lucas constructs. 
+
+Lucas proceeds by relaxing these assumptions one by one, starting with the assumption that the effective labour input per person is equal across countries. Using estimates of relative human capital constructed by [@krueger1968factor - per capita income expressed as a fraction of US income that workers could attain given the same level of physical capital as the US], Lucas re-estimates $y$ as the income per effective worker, reducing the rate of return prediction to 5 which is still large enough to drive strong capital flows from rich to poor countries which still leaves the puzzle unresolved. 
+
+Next, Lucas looks at the external benefits of human capital by assuming that the technology level of a country is equal to the average human capital raised to a power ($\gamma$). $\gamma$ is estimated using the difference between growth in output per man hour and capital per man hour (ref paper, this part is a bit complicated). The production function becomes $y = Ax^{ \beta}h^{\gamma}$ and the marginal productivity of capital becomes $r = \beta A^{1/\beta}y^{(\beta - 1){\beta}} h^{\gamma/\beta}$. $h = 5, \gamma = .36 and \beta = .4$ yields a rate of return ratio of 1.04. Although this explains away the puzzle, it uses the assumption that there are no knowledge spillovers between countries. 
+
+Lucas then examines the structures of capital markets within the political context of the real world. Using the extreme example of a colonial power, he argues that an imperial monopolist would strive to suppress real wage growth in a colony. Although little evidence is shown in support of this, he states that it is possible that political and bureaucratic regimes work to stymie capital inflows for a variety of reasons (rent seeking behaviour).
+
+He concludes by stating the following:
+
+* The central idea of postwar development policies is to stimulate transfers of capital goods from rich to poor countries (unreferenced).
+* Differences in human capital stimulating capital flows to invest in human capital would result in a reduction in private investment in human capital development/investment abroad. (ASK)
+* If return differentials are maintained to preserve monopolistic rents, capital flows will be offset by a similar reduction in private investment to keep wage levels low.
+* If political risk is the only reason keeping capital flows low, transfers of capital ought to speed up development.
+* Human capital development is more likely to have effects than other interventions. Tying aid to openness to competitive foreign investment could also be useful.
+
+#### Solow - 1956
+
+* Assumptions are necessary, but should not be the defining characterisitic of a theoretical model. "When the results of a theory flow from a special crucial assumption, if the assumption is dubious, the results are suspect". 
+* Harrod-Domar: no substitutability of labour and capital, the critical assumption according to Solow. Harrod instability - mandates balance to keep the economygrowing else prolonged unemployment or inflation will ensue. Something something capital coefficient.
+* 
+
+#### MRW
+
+##### (Why doesn't capital flow to poor countries from rich countries?)
+
+# References
